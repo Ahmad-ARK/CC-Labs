@@ -1,0 +1,16 @@
+<KEYWORD, void>
+<ID, main>
+<OP, (>
+<OP, )>
+<OP, {>
+<KEYWORD, int>
+<ID, x>
+<OP, =>
+<HEX, 0x1A>
+<OP, ;>
+<KEYWORD, Print>
+<OP, (>
+<STRING, "Hello Decaf">
+<OP, )>
+<OP, ;>
+<OP, }>

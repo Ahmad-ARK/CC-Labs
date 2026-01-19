@@ -1,0 +1,17 @@
+{
+  "total_files_analyzed": 1,
+  "reports": [
+    {
+      "file": "i.txt",
+      "lines": 2,
+      "words": 3,
+      "top_words": [
+        "console (1)",
+        "log (1)",
+        "hey (1)"
+      ],
+      "avg_word_length": 4.33,
+      "vowel_consonant_ratio": 0.63
+    }
+  ]
+}
