@@ -1,5 +1,5 @@
-// 2022-CS-31
 
+// 2022-CS-31
 const fs = require('fs');
 const path = require('path');
 
@@ -23,7 +23,7 @@ if (!directoryPath || !outputPath || !fs.existsSync(directoryPath)) {
 const stopWords = new Set(["the", "and", "in", "is", "of", "to", "a", "it", "for", "on", "with"]);
 
 function analyzeFile(filePath) {
-    const content = fs.readFileSync(filePath, 'utf8');
+    const content = fs.readFileSync(filePath, 'utf8');    
     const lines = content.split(/\r?\n/);
     const words = content.toLowerCase().match(/\b(\w+)\b/g) || [];
     
@@ -35,7 +35,7 @@ function analyzeFile(filePath) {
         if (/[a-z]/.test(char)) {
             if (/[aeiou]/.test(char)) vowels++;
             else consonants++;
-        }
+        }        
     });
 
     words.forEach(word => {

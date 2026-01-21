@@ -3,15 +3,16 @@
   "reports": [
     {
       "file": "i.txt",
-      "lines": 2,
-      "words": 3,
+      "lines": 3,
+      "words": 4,
       "top_words": [
         "console (1)",
         "log (1)",
-        "hey (1)"
+        "hey (1)",
+        "wow (1)"
       ],
-      "avg_word_length": 4.33,
-      "vowel_consonant_ratio": 0.63
+      "avg_word_length": 4,
+      "vowel_consonant_ratio": 0.6
     }
   ]
 }

@@ -1,0 +1,14 @@
+// Testing Keywords and Identifiers
+void main() {
+    int x = 10;
+    double y = 12.2E+2;
+    string s = "Hello UET";
+    
+    /* Testing multi-line 
+       comments and hex */
+    int hex = 0x12aE;
+    
+    if (x <= 20 && y != 0.0) {
+        Print(s);
+    }
+}
